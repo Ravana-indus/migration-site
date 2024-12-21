@@ -97,7 +97,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Study in Germany for Free: Ultimate Guide for Sri Lankan Students</title>
+        <title>Study in Germany for Free: Ultimate Guide for Sri Lankan Students Best Consultant for Germany</title>
         <meta name="description" content="Studying in Germany is more affordable than at a private university in Sri Lanka. Discover world-class education opportunities and career growth prospects." />
         <meta property="og:title" content="Study in Germany for Free: Ultimate Guide for Sri Lankan Students" />
         <meta property="og:description" content="Studying in Germany is more affordable than at a private university in Sri Lanka. Discover world-class education opportunities and career growth prospects." />

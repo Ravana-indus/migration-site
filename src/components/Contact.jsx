@@ -25,9 +25,8 @@ const Contact = () => {
         {/* Call Us */}
         <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Call us</h2>
-          <p className="text-gray-600 mb-4">Monday to Friday 9.30pm to 5 pm</p>
+          <p className="text-gray-600 mb-4">Monday to Friday 9.30pm to 5.30 pm</p>
           <p className="text-gray-800">
-            +94 11 273 8948 / <br />
             +94 11 258 1181
           </p>
         </div>
@@ -35,7 +34,7 @@ const Contact = () => {
         {/* Visit Us */}
         <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Visit us in person</h2>
-          <p className="text-gray-600 mb-4">Monday to Friday 9.30pm to 5 pm</p>
+          <p className="text-gray-600 mb-4">Monday to Friday 9.30 am to 5 pm</p>
           <p className="text-gray-800">
             No 10/30/1/1,Pamankada Lane, <br />
             Wellawatta, Colombo 06

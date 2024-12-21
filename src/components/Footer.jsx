@@ -85,7 +85,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-300 text-center md:text-left">
             <p>
-              © Ravana Industries Private Limited {new Date().getFullYear()}
+              © Ravana Industries Pvt Ltd {new Date().getFullYear()}
             </p>
             <p className="flex items-center gap-1">
               Build with 
