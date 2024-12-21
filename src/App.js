@@ -8,9 +8,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import StudentForm from './components/StudentForm';
 import WhyGermany from './components/WhyGermany';
-import BlogList from './components/BlogList';
-import BlogPost from './components/BlogPost'; 
-import BlogAdmin from './components/BlogAdmin'; 
+
 
 
 function App() {
@@ -26,9 +24,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/studentform" element={<StudentForm />} />
             <Route path="/Whygermany" element={<WhyGermany />} />
-            <Route path="/blog" element={<BlogList />} />
-            <Route path="/blog/:slug" element={<BlogPost />} />
-            <Route path="/admin/blog" element={<BlogAdmin />} />
+            
           </Routes>
         </main>
         <Footer />
