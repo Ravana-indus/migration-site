@@ -124,7 +124,7 @@ const Home = () => {
           <img src="./img/germany.png" alt="Germany Flag" className="w-full max-w-5xl mx-auto h-48 object-contain" />
           <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-6">"Studying in Germany is more affordable than at a private university in Sri Lanka."*</h2>
           <p className="text-xl text-gray-600 mb-8">Affordable Study Abroad: Free or Low-Cost Bachelor's Degrees in Germany vs. Sri Lankan Private Universities (Avg. 4-Year Cost: 3-7 Million LKR)</p>
-          <Link to="/why-germany" className="inline-block px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-all">
+          <Link to="/whygermany" className="inline-block px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-all">
             Learn More!
           </Link>
         </div>
