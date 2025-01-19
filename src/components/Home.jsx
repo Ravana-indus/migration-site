@@ -97,7 +97,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Study in Germany for Free: Ultimate Guide for Sri Lankan Students Best Consultant for Germany</title>
+        <title>Ravana Migration - Th Best #1 German Visa Consultant in Sri Lanka</title>
         <meta name="description" content="Studying in Germany is more affordable than at a private university in Sri Lanka. Discover world-class education opportunities and career growth prospects." />
         <meta property="og:title" content="Study in Germany for Free: Ultimate Guide for Sri Lankan Students" />
         <meta property="og:description" content="Studying in Germany is more affordable than at a private university in Sri Lanka. Discover world-class education opportunities and career growth prospects." />
@@ -111,7 +111,7 @@ const Home = () => {
         <div className="text-center py-8">
           <img src="../img/logo.png" alt="Ravana Migration Logo" className="w-full max-w-4xl mx-auto h-64 object-contain mb-5" />
           <h1 className="text-5xl md:text-6xl font-light text-gray-900 mb-6">Welcome to Ravana Migration 🛫</h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">Your future in Germany as a Student or Job Seeker starts here!</p>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">The Premiere Germany Visa Consultant in Sri Lanka!</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <Link to="/studentform" className="inline-block px-6 py-3 bg-gray-800 text-white border-2 border-gray-800 rounded-lg hover:bg-gray-700 transition-all">
               Click Here To Apply Now!
