@@ -20,7 +20,7 @@ const Footer = () => {
           <div>
             <div className="w-40 mb-4">
               <img 
-                src="/img/Lavana Logo.png" 
+                src="/img/ravana-logo.png" 
                 alt="Ravana Industries Logo" 
                 className="w-full h-auto"
               />

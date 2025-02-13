@@ -50,13 +50,10 @@ const WhyGermany = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto">
       {/* Hero Section */}
-      <div className="text-center py-16">
-        <img src="/img/germany.png" alt="German Flag" className="w-32 h-32 mx-auto mb-8" />
-        <h1 className="text-4xl md:text-6xl font-light text-gray-900 mb-6">
-          Study in Germany for Free: The Ultimate Guide for Sri Lankan Students
-        </h1>
+      <div className="text-center py-8">
+        <img src="/img/germany.png" alt="German Flag" className="w-24 h-24 mx-auto mb-6" />
         <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto mb-8">
           Studying in Germany is cheaper than studying in a Sri Lankan private university sometimes. Germany offers an incredible opportunity. Unlike many other study destinations that come with high tuition fees, public universities in Germany offer free education—yes, you heard that right. The quality of education is world-class, and there are endless opportunities for career growth after graduation.
         </p>

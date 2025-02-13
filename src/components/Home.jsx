@@ -94,16 +94,101 @@ const Home = () => {
     }
   ];
 
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Ravana Migration Pvt Ltd',
+    description: 'The Premiere Germany Visa Consultant in Sri Lanka',
+    url: 'https://ravanamigration.com',
+    logo: 'https://ravanamigration.com/img/logo.png',
+    sameAs: [
+      'https://www.facebook.com/ravanamigration',
+      'https://www.linkedin.com/company/ravana-migration'
+    ],
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'Sri Lanka'
+    }
+  };
+
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Ravana Migration',
+    url: 'https://ravanamigration.com',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://ravanamigration.com/blog/search?q={search_term_string}',
+      'query-input': 'required name=search_term_string'
+    }
+  };
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How much does it cost to study in Germany?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Studying in Germany is more affordable than at a private university in Sri Lanka. Public universities in Germany are tuition-free, with students only paying semester fees ranging from €150-€350.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What is your success rate for German student visas?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'We maintain a 99% success rate for qualified applicants applying for German student visas through our service.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Do you offer a money-back guarantee?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, we offer a 100% refund of professional fees within 14 working days if the visa application is unsuccessful.'
+        }
+      }
+    ]
+  };
+
   return (
     <>
       <Helmet>
-        <title>Ravana Migration - Th Best #1 German Visa Consultant in Sri Lanka</title>
-        <meta name="description" content="Studying in Germany is more affordable than at a private university in Sri Lanka. Discover world-class education opportunities and career growth prospects." />
-        <meta property="og:title" content="Study in Germany for Free: Ultimate Guide for Sri Lankan Students" />
-        <meta property="og:description" content="Studying in Germany is more affordable than at a private university in Sri Lanka. Discover world-class education opportunities and career growth prospects." />
-        <meta property="og:image" content="https://www.ravanamigration.com/meta.png" />
+        <title>Ravana Migration - Sri Lanka's No 1 German Visa Consultant by Ravana Industries Pvt Ltd</title>
+        <meta name="description" content="Expert German student visa consultancy in Sri Lanka. Get free education in Germany with 99% visa success rate. Professional guidance for Sri Lankan students." />
+        <meta name="keywords" content="German student visa Sri Lanka, study in Germany, Germany education consultant, free education Germany, visa consultancy Colombo" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="Ravana Migration - Sri Lanka's No 1 German Visa Consultant by Ravana Industries Pvt Ltd" />
+        <meta property="og:description" content="Expert German student visa consultancy in Sri Lanka. Get free education in Germany with 99% visa success rate. Professional guidance for Sri Lankan students." />
+        <meta property="og:image" content="https://www.ravanamigration.com/img/meta-image.png" />
         <meta property="og:url" content="https://www.ravanamigration.com" />
+        <meta property="og:type" content="website" />
+        
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Study in Germany - Free Education & Expert Visa Consultancy" />
+        <meta name="twitter:description" content="Expert German student visa consultancy in Sri Lanka. Get free education in Germany with 99% visa success rate." />
+        <meta name="twitter:image" content="https://www.ravanamigration.com/img/meta-image.png" />
+        
+        {/* Additional SEO tags */}
+        <link rel="canonical" href="https://www.ravanamigration.com" />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="English" />
+        
+        {/* Schema.org markup */}
+        <script type="application/ld+json">
+          {JSON.stringify(organizationSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(websiteSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(faqSchema)}
+        </script>
       </Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
